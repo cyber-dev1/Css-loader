@@ -1,0 +1,87 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; 
+    border-radius: 50%;
+    border: 10px solid black;
+    border-block-end-color: blue;
+    margin-top: 200px;
+    border-block-end-color:  orangered;
+}
+@keyframes loader {
+    from{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.title{
+    display: flex;
+}
+.text{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 0 auto;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-block-end-color: red;
+    margin-top: 243px;
+    position: relative;
+    transform: rotate(320deg);
+    left: 220px;
+   
+}
+.text2{
+    left: 924px;
+    position: absolute;
+    width: 60px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 0 auto;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-block-end-color: green;
+    margin-top: 200px;
+    transform: rotate(150deg);
+}
+.text3{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 0 auto;
+    animation-name: loader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-block-end-color: blue;
+    margin-top: 243px;
+    position: relative;
+    right: 270px;
+    transform: rotate(1deg);
+   
+}
+@keyframes animation {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
